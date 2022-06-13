@@ -7,7 +7,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+          rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="style.css">
@@ -17,18 +18,18 @@
 </head>
 <body>
 
-<div class="display">
-    <main class="card">
+<main class="card">
 
-        <img src="images/illustration-hero.svg" alt="Music image" class="main_image">
+    <img src="images/illustration-hero.svg" alt="Music image" class="main_image">
 
+    <div class="body">
         <h1>Order Summary</h1>
 
         <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any
-           device anywhere you like!</p>
+                               device anywhere you like!</p>
 
         <div class="plan_card">
-            <img src="images/icon-music.svg" alt="Music icon" class="music_icon">
+            <img src="images/icon-music.svg" class="music_icon" alt="">
 
             <div class="plan_info">
                 <h2>Annual Plan</h2>
@@ -38,14 +39,16 @@
             <a href="#" class="change_button">Change</a>
         </div>
 
-        <button type="submit">Proceed to Payment</button>
+        <form action="#">
+            <button type="button">Proceed to Payment</button>
+        </form>
 
         <a href="#" class="cancel_button">Cancel Order</a>
-    </main>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Kapline</a>.
     </div>
+</main>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Kapline</a>.
 </div>
 
 </body>

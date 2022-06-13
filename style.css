@@ -76,10 +76,11 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 700;
+    width: 93px;
     color: hsl(223, 47%, 23%);
-    letter-spacing: -0.046em;
+    letter-spacing: -0.011em;
 }
 
 .price {

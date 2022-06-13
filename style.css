@@ -165,8 +165,11 @@ button:hover {
         height: 160px;
     }
 
+    .body {
+        padding: 32px 24px;
+    }
+
     h1 {
-        margin-top: 32px;
         font-size: 22px;
     }
 
@@ -204,6 +207,6 @@ button:hover {
     }
 
     .cancel_button {
-        margin: 24px 0 32px 0;
+        margin: 24px 0 0 0;
     }
 }
